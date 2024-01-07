@@ -1,31 +1,154 @@
+<!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head><title>Menu: Store 1</title>
+<head>
+  <title>Τιμοκατάλογος Εστιατορίου</title>
+ <style>
+    /* Καθαρή CSS μέσα στο <style> tag */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #333; /* Αλλαγή του χρώματος του background */
+      display: flex;
+      justify-content: center; /* Κέντρο του περιεχομένου */
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 800px; /* Μέγιστο πλάτος του περιεχομένου */
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .category {
+      flex: 1 1 calc(50% - 20px); /* Καθορισμός πλάτους για κάθε κατηγορία σε desktop */
+      margin: 10px;
+      background-color: #fff;
+      padding: 15px;
+      box-sizing: border-box;
+    }
+	
+	  h1 {
+      text-align: center; /* Κείμενο στη μέση */
+	  color: white;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .category {
+        flex: 1 1 calc(100% - 20px); /* Καθορισμός πλάτους για κινητά */
+      }
+    }
+	
+.info-box {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      width: 100%;
+      position: fixed; /* Αλλάζουμε τη θέση του πλαισίου σε fixed */
+      bottom: 0; /* Θέτουμε το πλαίσιο στο κάτω μέρος του παραθύρου */
+      left: 0; /* Τοποθετούμε το πλαίσιο στο αριστερό άκρο */
+      z-index: 1; /* Τοποθετούμε πάνω από το περιεχόμενο */
+    }
+    
+	
+ .spacer {
+      height: 50px; /* Ύψος του κενού πλαισίου */
+      background-color: #333; /* Χρώμα του κενού πλαισίου */
+    }
+  </style>
 </head>
 <body>
-<a href="https://nfmenucom.xyz/store1/">Greek / Ελληνικά</a>
-  <h1 align="center">Store 1</h1> 
-  <h2>**Food Type**</h2>
-<img align="center" height="250" width="250" src="logo.png"> <br>
-  <h4>Store info</h4>
-<p>Phone: +30 ΧΧ ΧΧΧΧ ΧΧΧΧ</p> 
-<p>E-mail: xxxxx@xxxxx.xxx</p> 
-<p>Address: xxxxx xx Ελλάδα, xxxxx</p>
-  <hr>
-<h3>Meat:</h3> <br>
-<h4>Product 1         1.90€</h4> <br>
-<h4>Product 2         1.90€</h4> <br>
-<h4>Product 3         2.00€</h4> <br> 
-<hr>
-<h3>Gyro:</h3> <br>
-<h4>Gyro 1           3.40€</h4> <br>
-<h4>Gyro 2           3.50€</h4> <br>
 
 
-  
+  <main>
+    <!-- Αλλαγές σε κάθε κατηγορία -->
+	<div class="h1"><h1>Restaurant Menu</h1> <br> </div>
+	 <img src="logo.png" width="350" height="350">
+    <div class="category">
+      <h3>Appetizers</h3>
+      <ul>
+        <li>Pizza <span class="price">€8</span></li>
+        <li>Salad <span class="price">€5</span></li>
+        <li>Fried Potatoes <span class="price">€4</span></li>
+        <li>Zucchini Fritters <span class="price">€6</span></li>
+        <li>Fried Calamari <span class="price">€7</span></li>
+        <li>Potato Croquettes <span class="price">€5</span></li>
+        <li>Cheese Balls <span class="price">€6</span></li>
+        <li>Zucchini Pie <span class="price">€5</span></li>
+        <li>Cheese Pies <span class="price">€4</span></li>
+        <li>Meatballs <span class="price">€6</span></li>
+      </ul>
+    </div>
+    <div class="category">
+      <h3>Baked Chicken</h3>
+      <ul>
+        <li>Burgers <span class="price">€12</span></li>
+        <li>Moussaka <span class="price">€11</span></li>
+        <li>Baked Chicken <span class="price">€10</span></li>
+        <li>Stuffed Vegetables <span class="price">€9</span></li>
+        <li>Curry Chicken <span class="price">€10</span></li>
+        <li>Fried Sausages <span class="price">€8</span></li>
+        <li>Souvlaki <span class="price">€9</span></li>
+        <li>Grilled Chicken <span class="price">€11</span></li>
+        <li>Pork with Eggplants <span class="price">€12</span></li>
+        <li>Pastitsio <span class="price">€10</span></li>
+      </ul>
+    </div>
+    <div class="category">
+      <h3>Salads</h3>
+      <ul>
+        <li>Chicken Salad <span class="price">€7</span></li>
+        <li>Greek Salad <span class="price">€6</span></li>
+        <li>Vegetable Salad <span class="price">€5</span></li>
+        <li>Pork Salad <span class="price">€8</span></li>
+        <li>Seafood Salad <span class="price">€9</span></li>
+        <li>Chicken Soup <span class="price">€4</span></li>
+        <li>Marinated Shrimps <span class="price">€10</span></li>
+        <li>Tuna Salad <span class="price"> 5€</span></li>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+</main>
+
+ <div class="spacer">
+ </div>
+
+<div class="info-box">
+    <p>Όνομα Εστιατορίου: Restaurant Name</p>
+    <p>Τηλέφωνο: 123-456789</p>
+    <p>Email: example@example.com</p>
+    <p>NF Menu</p>
+  </div>
+
+ <script>
+    // Όταν η σελίδα φορτώνει, ελέγχουμε το scrolling
+    window.addEventListener('scroll', function() {
+      // Έλεγχος για το πόσο κάτω έχει κάνει scroll ο χρήστης
+      var scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
+
+      // Υπολογίζουμε το ύψος της σελίδας συν το ύψος του παραθύρου
+      var windowHeight = window.innerHeight;
+      var fullHeight = document.body.scrollHeight;
+
+      // Έλεγχος αν έχει φτάσει στο τέλος της σελίδας
+      if (scrollPosition + windowHeight >= fullHeight) {
+        // Εμφάνισε το info-box
+        document.querySelector('.info-box').style.display = 'block';
+      } else {
+        // Κρύψε το info-box
+        document.querySelector('.info-box').style.display = 'none';
+      }
+    });
+  </script>
+
 </body>
-
-
-
-  
 </html>
