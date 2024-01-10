@@ -42,28 +42,30 @@
       }
     }
 	
-.info-box {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-      width: 100%;
-      position: fixed; /* Αλλάζουμε τη θέση του πλαισίου σε fixed */
-      bottom: 0; /* Θέτουμε το πλαίσιο στο κάτω μέρος του παραθύρου */
-      left: 0; /* Τοποθετούμε το πλαίσιο στο αριστερό άκρο */
-      z-index: 1; /* Τοποθετούμε πάνω από το περιεχόμενο */
-    }
-    
+
 	
- .spacer {
-      height: 50px; /* Ύψος του κενού πλαισίου */
-      background-color: #333; /* Χρώμα του κενού πλαισίου */
-    }
-	
-a:link {
-  color: white;
+    a:link {
+  color: rgb(255, 255, 255);
   background-color: transparent;
   text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
 }
   </style>
 </head>
@@ -72,8 +74,11 @@ a:link {
 
   <main>
     <!-- Αλλαγές σε κάθε κατηγορία -->
-	<div class="h1"><h1>Τιμοκατάλογος Εστιατορίου</h1> <br> <a color="white" href="https://nfmenucom.xyz/store1/en"><p color="white">Click here for English</p></a> </div>
+	<div class="h1"><h1>Τιμοκατάλογος Εστιατορίου</h1> <br> <a color="white" href="https://nfmenucom.xyz/store1/en"><p color="white">Click here for English</p></a> <br>
+  <a  href="contact.html">Στοιχεία Καταστήματος </a></div>
+  
 	 <img src="logo.png" width="350" height="350">
+   
     <div class="category">
       <h3>Ορεκτικά</h3>
       <ul>
@@ -114,47 +119,13 @@ a:link {
         <li>Θαλασσινή Σαλάτα <span class="price">€9</span></li>
         <li>Κοτόσουπα <span class="price">€4</span></li>
         <li>Γαρίδες Μαριναρισμένες <span class="price">€10</span></li>
-        <li>Τονο</li>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+        <li>Τονοσαλάτα 5€</li>
+
 </main>
 
- <div class="spacer">
- </div>
+ 
 
-<div class="info-box">
-    <p>Όνομα Εστιατορίου: Restaurant Name</p>
-    <p>Τηλέφωνο: 123-456789</p>
-    <p>Email: example@example.com</p>
-    <p>NF Menu</p>
-  </div>
-
- <script>
-    // Όταν η σελίδα φορτώνει, ελέγχουμε το scrolling
-    window.addEventListener('scroll', function() {
-      // Έλεγχος για το πόσο κάτω έχει κάνει scroll ο χρήστης
-      var scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
-
-      // Υπολογίζουμε το ύψος της σελίδας συν το ύψος του παραθύρου
-      var windowHeight = window.innerHeight;
-      var fullHeight = document.body.scrollHeight;
-
-      // Έλεγχος αν έχει φτάσει στο τέλος της σελίδας
-      if (scrollPosition + windowHeight >= fullHeight) {
-        // Εμφάνισε το info-box
-        document.querySelector('.info-box').style.display = 'block';
-      } else {
-        // Κρύψε το info-box
-        document.querySelector('.info-box').style.display = 'none';
-      }
-    });
-  </script>
+ 
 
 </body>
 </html>
