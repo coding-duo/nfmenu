@@ -7,6 +7,7 @@
 <style>
 body {
    background-color: #333;
+   font-family: Arial, Helvetica, sans-serif;
 }
 .header {
   padding: 12px;
@@ -32,9 +33,40 @@ body {
     text-align: left;
 }
 
-a {
-    color: white;
-    
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.qstdemo {
+
+    text-align: center;
+    color: #fff;
+}
+
+.contactus {
+
+    color: #fff;
+    text-align: center;
 }
 </style>
 <body backgroundcolor="#333">
@@ -64,6 +96,9 @@ a {
 <hr color="white">
 
 <div class="qst"><h2>Τι διαφορά έχει το NFMenu από ενα QR code?</h2>
+    <div class="img">
+        <img align="right" src="cardback.png" height="150" width="130"><img align="right" src="cardfront.png" height="150" width="130"> 
+        </div>
     <p>Με τη χρήση του NF Menu, δηλαδή της κάρτας NFC, η διαδικασία ανοίγματος του μενού. <br>
         Συγκεκριμένα: </p>
         <ul>
@@ -72,16 +107,21 @@ a {
         <li>Η σελίδα που ανοίγουν τα μενού αναλαμβάνεται από εμάς</li>
         <li>Η σελίδα έχει link που φέρνει τον επισκέπτη σε μενού της αγγλικής γλώσσας.</li>
         <li>Τα QR Code επίσης, με τον καιρό φθείρονται και φτάνουν σε σημείο που δεν λειτουργούν. Η κάρτα NF Menu έχει μεγαλύτερη αντοχή.</li>
+        <li>Η σελίδα έχει επίσης σύνδεσμο ο οποίος ανακατευθύνει τον πελάτη σε πληροφορίες για το κατάστημά σας και ξανά πίσω.</li>
         </ul></div>
 <hr>
-<div class="qst"><h4>Δοκιμαστική Λειτουργία:</h4>    
+<div class="qstdemo"><h4>Δοκιμαστική Λειτουργία:</h4>    
+    <a href="https://nfmenucom.xyz/store1">Δείτε ένα Demo εδώ</a> <br>
+    <video  width="300" height="400" autoplay muted loop src="20231227_181609.mp4">Sorry</video></div>
+<hr color="white">
+<div class="contactus">    
+    <b>
+    <p>Επικοινωνήστε μαζί μας στο <a href="nfmenucom@gmail.com">nfmenucom@gmail.com</a> </p>
+    <p>NF Menu</p> </b>
+ </div>   
+    
+    
 
-    <a href="https://nfmenucom.xyz/store1">Δείτε ένα Demo εδώ</a>
-    
-    <p>Επικοινωνήστε μαζί μας στο <a href="nfmenucom@gmail.com">nfmenucom@gmail.com</a> </p> <br>
-    
-    
-    <video allign="right" width="300" height="400" autoplay muted controls src="20231227_181609.mp4">Sorry</video></div>
-
+ 
 </body>
 </html>
