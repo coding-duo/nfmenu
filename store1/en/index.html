@@ -1,126 +1,197 @@
 <!DOCTYPE html>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head>
-  <title>Τιμοκατάλογος Εστιατορίου</title>
- <style>
-    /* Καθαρή CSS μέσα στο <style> tag */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #333; /* Αλλαγή του χρώματος του background */
-      display: flex;
-      justify-content: center; /* Κέντρο του περιεχομένου */
-    }
-
-    main {
-      display: flex;
-      flex-wrap: wrap;
-      max-width: 800px; /* Μέγιστο πλάτος του περιεχομένου */
-      width: 100%;
-      padding: 20px;
-      box-sizing: border-box;
-    }
-
-    .category {
-      flex: 1 1 calc(50% - 20px); /* Καθορισμός πλάτους για κάθε κατηγορία σε desktop */
-      margin: 10px;
-      background-color: #fff;
-      padding: 15px;
-      box-sizing: border-box;
-    }
-	
-	  h1 {
-      text-align: center; /* Κείμενο στη μέση */
-	  color: white;
-    }
-
-    @media only screen and (max-width: 768px) {
-      .category {
-        flex: 1 1 calc(100% - 20px); /* Καθορισμός πλάτους για κινητά */
-      }
-    }
-	
-
-
-    a:link {
-  color: rgb(255, 255, 255);
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: rgb(255, 255, 255);
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: rgb(255, 255, 255);
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: rgb(255, 255, 255);
-  background-color: transparent;
-  text-decoration: underline;
-}
-  </style>
-</head>
-<body>
-
-
-  <main>
-    <!-- Αλλαγές σε κάθε κατηγορία -->
-	<div class="h1"><h1>Restaurant Menu</h1> <br> <a color="white"href="https://nfmenucom.xyz/store1/"><p color="white">Πατήστε εδώ για Ελληνικά</p></a> </div>
-	 <img src="logo.png" width="200" height="200">
-    <div class="category">
-      <h3>Appetizers</h3>
-      <ul>
-        <li>Pizza <span class="price">€8</span></li>
-        <li>Salad <span class="price">€5</span></li>
-        <li>Fried Potatoes <span class="price">€4</span></li>
-        <li>Zucchini Fritters <span class="price">€6</span></li>
-        <li>Fried Calamari <span class="price">€7</span></li>
-        <li>Potato Croquettes <span class="price">€5</span></li>
-        <li>Cheese Balls <span class="price">€6</span></li>
-        <li>Zucchini Pie <span class="price">€5</span></li>
-        <li>Cheese Pies <span class="price">€4</span></li>
-        <li>Meatballs <span class="price">€6</span></li>
-      </ul>
-    </div>
-    <div class="category">
-      <h3>Baked Chicken</h3>
-      <ul>
-        <li>Burgers <span class="price">€12</span></li>
-        <li>Moussaka <span class="price">€11</span></li>
-        <li>Baked Chicken <span class="price">€10</span></li>
-        <li>Stuffed Vegetables <span class="price">€9</span></li>
-        <li>Curry Chicken <span class="price">€10</span></li>
-        <li>Fried Sausages <span class="price">€8</span></li>
-        <li>Souvlaki <span class="price">€9</span></li>
-        <li>Grilled Chicken <span class="price">€11</span></li>
-        <li>Pork with Eggplants <span class="price">€12</span></li>
-        <li>Pastitsio <span class="price">€10</span></li>
-      </ul>
-    </div>
-    <div class="category">
-      <h3>Salads</h3>
-      <ul>
-        <li>Chicken Salad <span class="price">€7</span></li>
-        <li>Greek Salad <span class="price">€6</span></li>
-        <li>Vegetable Salad <span class="price">€5</span></li>
-        <li>Pork Salad <span class="price">€8</span></li>
-        <li>Seafood Salad <span class="price">€9</span></li>
-        <li>Chicken Soup <span class="price">€4</span></li>
-        <li>Marinated Shrimps <span class="price">€10</span></li>
-        <li>Tuna Salad <span class="price"> 5€</span></li>
-
-</main>
-
- 
-
-</body>
-</html>
+<html style="font-size: 16px;" lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="​Flavour so good you’ll try to eat with your eyes, ​Small Bites, Hot Dishes, 40%, ​Where every ingredient tells a story, Dessert, Tea, 40%, Our Contact">
+    <meta name="description" content="">
+    <title>Demo menu</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Page-1.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 6.2.1, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+       
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"logo": "images/logo1.png",
+		"sameAs": [
+				"https://www.instagram.com/nfmenu/",
+				"https://www.youtube.com/channel/UC6Cud94nWJjvFo-D7mwUSYw",
+				"mailto:nfmenucom@gmail.com"
+		]
+}</script>
+  <br>
+     <a href="https://nfmenucom.xyz/store1"><img src="images/grflag.png" height="30" width="55">
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Page 1">
+    <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-home-page="Page-1.html" data-home-page-title="Page 1" data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-320a"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="" class="u-image u-logo u-image-1" data-image-width="500" data-image-height="500">
+          <img src="images/logo1.png" class="u-logo-image u-logo-image-1">
+        </a>
+      </div></header> 
+    <section class="u-clearfix u-container-align-center u-section-1" id="sec-00ca">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-align-center u-text u-text-1">Appetizers</h2>
+        <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-align-center u-container-style u-layout-cell u-size-30 u-layout-cell-1">
+                <div class="u-container-layout u-valign-middle u-container-layout-1">
+                  <img class="u-expanded-width u-image u-image-round u-radius-50 u-image-1" src="images/mixed-salad-fresh-vegetables-with-pieces-salmon.jpg" alt="" data-image-width="1500" data-image-height="996">
+                </div>
+              </div>
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+                <div class="u-container-layout u-valign-top u-container-layout-2">
+                  <h6 class="u-text u-text-default u-text-2">Pizza&nbsp;€8</h6>
+                  <p class="u-text u-text-default u-text-3">Ingredients</p>
+                  <h6 class="u-text u-text-default u-text-4">Salad&nbsp;€5</h6>
+                  <p class="u-text u-text-default u-text-5"> Ingredients</p>
+                  <h6 class="u-text u-text-default u-text-6"> Fries&nbsp;€4</h6>
+                  <p class="u-text u-text-default u-text-7"> Ingredients
+                  <h6 class="u-text u-text-default u-text-10"> Fried Squid&nbsp;€7</h6>
+                  <p class="u-text u-text-default u-text-11"> Ingredients</p>
+                  <h6 class="u-text u-text-default u-text-12"> Potato croquettes&nbsp;€5</h6>
+                  <p class="u-text u-text-default u-text-13"> Ingredients</p>
+                  <h6 class="u-text u-text-default u-text-14"> Cheese meatballs&nbsp;€6</h6>
+                  <p class="u-text u-text-default u-text-15"> Ingredients<br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-container-align-center u-section-2" id="carousel_d833">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-align-center u-text u-text-default u-text-1"> Main Dishes</h2>
+        <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-align-left u-container-style u-layout-cell u-size-30 u-layout-cell-1">
+                <div class="u-container-layout u-container-layout-1">
+                  <h6 class="u-align-left u-text u-text-default u-text-2"> Meatballs&nbsp;€12</h6>
+                  <p class="u-align-left u-text u-text-default u-text-3"> Ingredients</p>
+                  <h6 class="u-align-left u-text u-text-default u-text-4"> Greek Moussaka&nbsp;€11</h6>
+                  <p class="u-align-left u-text u-text-default u-text-5"> Ingredients</p>
+                  <h6 class="u-align-left u-text u-text-default u-text-6"> Oven Chicken&nbsp;€10</h6>
+                  <p class="u-align-left u-text u-text-default u-text-7"> Ingredients</p>
+                  <h6 class="u-align-left u-text u-text-default u-text-10"> Seasoned Chicken&nbsp;€10</h6>
+                  <p class="u-align-left u-text u-text-default u-text-11"> Ingredients</p>
+                  <h6 class="u-align-left u-text u-text-default u-text-12"> Fried Sausages&nbsp;€8</h6>
+                  <p class="u-align-left u-text u-text-default u-text-13"> Ingredients</p>
+                </div>
+              </div>
+              <div class="u-container-align-center u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+                <div class="u-container-layout u-valign-middle u-container-layout-2">
+                  <img class="u-expanded-width u-image u-image-round u-radius-50 u-image-1" src="images/pexels-photo-3850972.jpeg" alt="" data-image-width="2250" data-image-height="1500">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-container-align-center u-section-3" id="carousel_6500">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-align-center u-text u-text-default u-text-1"> Salad</h2>
+        <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-align-center u-container-style u-layout-cell u-size-30 u-layout-cell-1">
+                <div class="u-container-layout u-valign-middle u-container-layout-1">
+                  <img class="u-expanded-width u-image u-image-round u-radius-50 u-image-1" src="images/pexels-photo-3906526.jpeg" alt="" data-image-width="2258" data-image-height="1500">
+                </div>
+              </div>
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2">
+                  <h6 class="u-text u-text-default u-text-2"> Chicken Salad&nbsp;€7</h6>
+                  <p class="u-text u-text-3"> Ingredients</p>
+                  <h6 class="u-text u-text-default u-text-4"> Greek Salad&nbsp;€6</h6>
+                  <p class="u-text u-text-5"> Ingredients</p>
+                  <h6 class="u-text u-text-default u-text-6"> Green salad&nbsp;€5</h6>
+                  <p class="u-text u-text-7"> Ingredients</p>
+                  <h6 class="u-text u-text-default u-text-8"> Pork Salad&nbsp;€8</h6>
+                  <p class="u-text u-text-default u-text-9"> Ingredients<br>
+                  </p>
+                  <h6 class="u-text u-text-default u-text-10"> Seafood Salad&nbsp;€9</h6>
+                  <p class="u-text u-text-default u-text-11"> Ingredients</p>
+                  <h6 class="u-text u-text-default u-text-12"> Chicken Soup&nbsp;€4</h6>
+                  <p class="u-text u-text-default u-text-13"> Ingredients<br>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-4" id="sec-d0fd">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-container-style u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-group u-radius-50 u-shape-round u-white u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <h1 class="u-text u-text-1">Chat with us</h1>
+            <div class="u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-list u-list-1">
+              <div class="u-repeater u-repeater-1">
+                <div class="u-container-style u-list-item u-repeater-item u-shape-rectangle">
+                  <div class="u-container-layout u-similar-container u-container-layout-2"><span class="u-file-icon u-icon u-icon-circle u-palette-4-base u-icon-1"><img src="images/646094-d1da5d31.png" alt=""></span>
+                    <h6 class="u-text u-text-2">Via Email</h6>
+                    <p class="u-text u-text-3">
+                      <a href="mailto:nfmenucom@gmail.com" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1">nfmenucom@gmail.com</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="u-container-style u-list-item u-repeater-item u-shape-rectangle">
+                  <div class="u-container-layout u-similar-container u-container-layout-3"><span class="u-file-icon u-icon u-icon-circle u-palette-4-base u-icon-2"><img src="images/2838912-7facd193.png" alt=""></span>
+                    <h6 class="u-text u-text-4">Restaurant Adress</h6>
+                    <p class="u-text u-text-5">
+                      <a class="u-btn u-button-link u-button-style u-none u-text-palette-1-base u-btn-2" data-href="https://maps.app.goo.gl/Kb659HhCx66R2MLaA" data-target="_blank"> Ερμού 64Β Αθήνα</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="u-container-style u-list-item u-repeater-item u-shape-rectangle">
+                  <div class="u-container-layout u-similar-container u-container-layout-4"><span class="u-file-icon u-icon u-icon-circle u-palette-4-base u-icon-3"><img src="images/8066424-92fb1413.png" alt=""></span>
+                    <h6 class="u-text u-text-6">Phone no.</h6>
+                    <p class="u-text u-text-7">
+                      <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-3" href="tel:+30 12 3456 7890"> +30 12 3456 7890</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-grey-80" id="sec-be5d"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="https://nfmenucom.xyz" class="u-image u-logo u-image-1" title="nf" data-image-width="500" data-image-height="500">
+          <img src="images/logo.png" class="u-logo-image u-logo-image-1">
+        </a>
+        <div class="u-align-left u-social-icons u-spacing-15 u-social-icons-1">
+          <a class="u-social-url" title="Page 1" target="_blank" href="https://www.instagram.com/nfmenu/"><span class="u-file-icon u-icon u-social-icon u-social-instagram u-icon-1"><img src="images/2111463.png" alt=""></span>
+          </a>
+          <a class="u-social-url" target="_blank" data-type="YouTube" title="YouTube" href="https://www.youtube.com/channel/UC6Cud94nWJjvFo-D7mwUSYw"><span class="u-file-icon u-icon u-social-icon u-social-youtube u-icon-2"><img src="images/1384060.png" alt=""></span>
+          </a>
+          <a class="u-social-url" target="_blank" data-type="Email" title="Email" href="mailto:nfmenucom@gmail.com"><span class="u-file-icon u-icon u-social-email u-social-icon u-icon-3"><img src="images/732200.png" alt=""></span>
+          </a>
+        </div>
+        <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-1">This menu page was made by <a href="https://nfmenucom.xyz" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1">NF Menu</a>
+        </p>
+      </div></footer>
+    
+  
+</body></html>
